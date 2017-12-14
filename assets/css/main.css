@@ -1,0 +1,23 @@
+#splash {
+	background: linear-gradient(#570061, #DD0A87);
+	height: 100vh;
+}
+
+#splash img {
+	margin-top: 30vh;
+	width: 70%;
+	height: auto;
+}
+
+#appWeb {
+	background-image: url(../img/glowstache-1024x576.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 100vh;
+}
+
+#appWeb div img {
+	width: 30%;
+	height: auto;
+}
