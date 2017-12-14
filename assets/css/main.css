@@ -1,15 +1,21 @@
+body {
+	background-color: #570061;
+	width: 100%;
+	height: 100%;
+}
+
 #splash {
 	background: linear-gradient(#570061, #DD0A87);
 	height: 100vh;
 }
 
 #splash img {
-	margin-top: 30vh;
+	margin-top: 15em;
 	width: 70%;
 	height: auto;
 }
 
-#appWeb {
+#principal {
 	background-image: url(../img/glowstache-1024x576.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -17,7 +23,22 @@
 	min-height: 100vh;
 }
 
-#appWeb div img {
+#principal div img {
 	width: 30%;
 	height: auto;
+	padding-top: 1em;
+}
+
+#logbuttons {
+	padding-top: 35em;
+}
+
+.flags {
+	width: 100%;
+}
+
+#registrationform {
+	background-color: #FFF;
+	height: 100vh;
+	padding-top: 5em;
 }
